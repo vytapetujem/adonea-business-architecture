@@ -6,6 +6,10 @@ ADONEA AIOS je operačná architektúra firmy a podklad pre vývoj AdoneaTeam.
 
 AdoneaTeam nie je iba evidencia. Je digitálnym dvojčaťom firmy.
 
+## Ucelený prehľad
+
+Jednotný vstupný bod do celého operačného systému je `ADONEA-OPERATING-SYSTEM.md`. Spája všetky knihy do jedného prehľadu bez duplikovania obsahu.
+
 ## Knihy
 
 1. BOOK 0 – Constitution
@@ -15,4 +19,5 @@ AdoneaTeam nie je iba evidencia. Je digitálnym dvojčaťom firmy.
 5. BOOK 4 – Automation
 6. BOOK 5 – Resources
 7. BOOK 6 – Finance
-8. BOOK 7 – Strategy
+8. BOOK 7 – Strategy *(ciele a KPI na 1–5 rokov)*
+9. BOOK 8 – AdoneaTeam *(digitálne dvojča: baseline a roadmapa aplikácie)*
