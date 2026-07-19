@@ -103,6 +103,12 @@ Priamo napĺňa POS-021 a SLA prvého kontaktu. Najvyššia obchodná hodnota.
 - **Riešenie:** časová os interakcií (kanál, výsledok, kto); jasný vlastník leadu a zástupca; riadiaci pohľad pre vedúceho obchodu (nové leady bez kontaktu, pipeline podľa obchodníka).
 - **Hotovo, keď:** každý lead má úplnú stopu a jedného vlastníka.
 
+### E1.5 – Zberač leadov (jednotný príjem) — *implementované 2026-07-19*
+
+- **Pôvod:** POS-021, ADR-062, rozhodnutie `decisions/2026-07-19-LEAD-COLLECTOR.md`.
+- **Riešenie:** jedna schránka pre všetky kanály (Meta Ads cez API, Gmail hodinovou kontrolou, telefonát/ručne); `crm_leads` rozšírené o kanál, pôvod a `intake_status`; triáž prijať/spam/duplicita; automatizácia cronom.
+- **Hotovo, keď:** nové leady zo všetkých kanálov prídu do appky a spracujú sa podľa stanov. **Stav:** kód hotový a nasadený do vetvy; Meta/Gmail potrebujú produkčné secrets a cron.
+
 ---
 
 ## 5. Vlna 2 – Financie a hotovosť (chráni maržu)
