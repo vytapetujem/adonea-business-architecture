@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ink-950 text-ink-200 antialiased;
+    font-feature-settings: 'tnum' 1, 'cv03' 1;
+  }
+  ::selection {
+    @apply bg-accent/30 text-ink-100;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-ink-900;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-ink-600 rounded-full border-2 border-ink-900;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply bg-ink-850 border border-ink-700 rounded-xl shadow-panel;
+  }
+  .panel-title {
+    @apply text-2xs font-semibold uppercase tracking-[0.14em] text-ink-300;
+  }
+  .num {
+    @apply font-mono tabular-nums;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-md px-1.5 py-0.5 text-2xs font-medium border;
+  }
+}
