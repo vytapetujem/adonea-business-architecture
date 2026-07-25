@@ -68,7 +68,7 @@ export default function ValuationSection() {
     >
       <div className="panel p-5 mb-4 flex flex-wrap items-center gap-6">
         <div>
-          <div className="panel-title">Verdikt (2025-Q4)</div>
+          <div className="panel-title">Verdikt ({v.quarter})</div>
           <div className={`text-3xl font-bold tracking-tight mt-1 ${meta.cls}`}>{meta.label}</div>
           <div className="text-xs text-ink-300 mt-1">
             kompozitná odchýlka <b className={`num ${meta.cls}`}>{fmtPct(v.composite, 1)}</b> od odhadu fér hodnoty

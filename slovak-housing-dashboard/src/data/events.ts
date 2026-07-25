@@ -204,11 +204,23 @@ export const EVENTS: MarketEvent[] = [
     provenance: 'measured',
   },
   {
+    id: 'q1-2026-growth',
+    title: 'Rast pokračuje aj v 2026, nájmy klesajú',
+    category: 'market',
+    from: '2026-Q1',
+    date: '1. štvrťrok 2026',
+    description:
+      'Priemerná cena 3 005 €/m² (+3,4 % q/q, +11,3 % r/r). Obrat v Prešovskom kraji (+11 % q/q po poklese v 2025), silná Banská Bystrica (+6,9 %); príspevok Košíc a Žiliny slabne. Nájomné celoštátne klesá (Deloitte −1,7 %; Košice −4,8 %) — výnosy z prenájmu sú pod tlakom. Nezamestnanosť stúpla na 5,9 %.',
+    impact: 3,
+    confidence: 0.85,
+    provenance: 'measured',
+  },
+  {
     id: 'supply-shortage',
     title: 'Chronický nedostatok novej výstavby',
     category: 'supply',
     from: '2022-Q1',
-    to: '2025-Q4',
+    to: '2026-Q1',
     date: '2022 – súčasnosť',
     description:
       'Stavebné povolenia klesli z ~26-tis. (2020) na ~15-tis. bytov ročne; dokončené byty klesajú od 2021. SR má jeden z najnižších počtov bytov na 1 000 obyvateľov v EÚ (~390) — štrukturálna podpora cien.',

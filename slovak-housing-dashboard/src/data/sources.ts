@@ -66,12 +66,18 @@ export const sourceById = (id: string) => SOURCES.find((s) => s.id === id)
 /** Anchor values verified against live sources on 2026-07-25 (see docs/DATA_ACQUISITION.md). */
 export const VERIFIED_ANCHORS = [
   { label: 'Priemerná cena bývania SR, 2016-Q1', value: '1 238 €/m²', source: 'NBS komentár Q1 2016' },
+  { label: 'Priemerná cena bývania SR, 2026-Q1', value: '3 005 €/m² (+3,4 % q/q, +11,3 % r/r)', source: 'NBS komentár Q1 2026' },
+  { label: 'Byty / domy SR, 2026-Q1', value: '3 378 €/m² / 2 118 €/m²', source: 'NBS' },
   { label: 'Priemerná cena bývania SR, 2025-Q4', value: '2 906 €/m² (+92 €/m² q/q)', source: 'NBS komentár Q4 2025' },
-  { label: 'Byty SR, 2025-Q4', value: '3 262 €/m²', source: 'NBS' },
-  { label: 'Domy SR, 2025-Q4', value: '2 139 €/m²', source: 'NBS' },
   { label: 'Rast cien 2025', value: '+12 % (2024: < 1 %)', source: 'NBS' },
   { label: 'Medziročný rast 2025-Q2 / Q3', value: '+11,3 % / +13,4 %', source: 'ŠÚSR / NBS' },
-  { label: 'Priemerná sadzba hypoték od 10/2025', value: '≈ 3,5 %', source: 'NBS makroprudenciálny komentár' },
-  { label: 'Podiel Bratislavského kraja na ponuke', value: '36 % (2021) → 30 % (2025)', source: 'NBS' },
+  { label: 'Kraje 2026-Q1 medzikvartálne', value: 'PO +11 %, BB +6,9 %, TN +5,1 %, ZA +4,7 %', source: 'NBS komentár Q1 2026' },
+  { label: 'Bratislavský kraj 2026-Q1 medziročne', value: '+19,5 %', source: 'NBS' },
+  { label: 'Nitriansky kraj, 2025-Q3', value: '1 522 €/m² (najnižší v SR)', source: 'NBS (regionálne dáta)' },
   { label: 'Prešovský kraj 2025-Q4 medziročne', value: '−0,3 % (jediný pokles)', source: 'NBS komentár Q4 2025' },
+  { label: 'Nájomné 2026-Q1 (2-izb.)', value: 'BA 948 € (−2,1 %), KE 736 € (−4,8 %), NR 664 € (+1,8 %); SR −1,7 %', source: 'Deloitte Rent Index Q1 2026' },
+  { label: 'Priemerná mzda 2025', value: '1 620 € (+6,3 %; Q4: 1 739 €)', source: 'ŠÚSR' },
+  { label: 'Nezamestnanosť 2026-Q1', value: '5,9 % (+0,6 p. b. r/r)', source: 'ŠÚSR' },
+  { label: 'Priemerná sadzba hypoték od 10/2025', value: '≈ 3,5 %; ponuky 2026: 3,38–3,99 %', source: 'NBS / trhové porovnávače' },
+  { label: 'Podiel Bratislavského kraja na ponuke', value: '36 % (2021) → 30 % (2025)', source: 'NBS' },
 ]

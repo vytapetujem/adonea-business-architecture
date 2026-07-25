@@ -33,8 +33,8 @@ export default function App() {
       </main>
       <footer className="border-t border-ink-800 py-6">
         <div className="max-w-7xl mx-auto px-4 text-2xs text-ink-500 leading-relaxed">
-          SK Housing Monitor · analytický nástroj, nie finančné poradenstvo. Dáta: NBS, ŠÚSR, ECB, Eurostat + trhové odhady —
-          triedy spoľahlivosti a obmedzenia v sekcii Metodika. História končí 2025-Q4; prognózy sú scenárové projekcie s neistotou.
+          SK Housing Monitor · analytický nástroj, nie finančné poradenstvo. Dáta: NBS, ŠÚSR, ECB, Eurostat, Deloitte + trhové
+          odhady — triedy spoľahlivosti a obmedzenia v sekcii Metodika. História končí 2026-Q1; prognózy sú scenárové projekcie s neistotou.
         </div>
       </footer>
     </FilterProvider>

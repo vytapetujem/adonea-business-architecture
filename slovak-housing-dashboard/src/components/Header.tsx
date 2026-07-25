@@ -37,7 +37,7 @@ export default function Header() {
           ))}
         </nav>
         <span className="hidden md:inline chip border-forecast/40 text-forecast bg-forecast/10 shrink-0">
-          dáta k 2025-Q4 · zostavené 07/2026
+          dáta k 2026-Q1 · aktualizované 25. 7. 2026
         </span>
       </div>
     </header>

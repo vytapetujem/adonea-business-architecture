@@ -47,7 +47,7 @@ export function computeValuation(): ValuationResult {
     const wage = MACRO.wage.values[i]!
     const rate = MACRO.mortgageRate.values[i]!
     const { year } = parseQuarter(quarter)
-    const rent = NATIONAL_RENT_2025 * (RENT_INDEX_BY_YEAR[clamp(year, 2016, 2025)] / RENT_INDEX_BY_YEAR[2025])
+    const rent = NATIONAL_RENT_2025 * (RENT_INDEX_BY_YEAR[clamp(year, 2016, 2026)] / RENT_INDEX_BY_YEAR[2025])
 
     const netHouseholdMonthly = wage * NET_WAGE_RATIO * A.householdEarners
     const unitPrice = price * A.unitM2

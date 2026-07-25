@@ -60,7 +60,7 @@ export default function CyclesSection() {
         </div>
 
         <div className="panel p-4">
-          <div className="panel-title mb-3">Pravdepodobnosť aktuálnej fázy (2025-Q4)</div>
+          <div className="panel-title mb-3">Pravdepodobnosť aktuálnej fázy (2026-Q1)</div>
           <div className="space-y-3">
             {CURRENT_PHASE_PROBS.map(({ phase, p }) => (
               <div key={phase}>

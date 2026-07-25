@@ -38,7 +38,7 @@ function computeOutlook(): Outlook {
     pFlat,
     pDecrease,
     summary:
-      `Momentum z roku 2025 (+12 %) sa prenáša do roku 2026, podporené sadzbami ~3,5 %, rastom miezd ~5 % a slabou ponukou. ` +
+      `Momentum z roku 2025 (+12 %) sa potvrdilo aj v Q1 2026 (+3,4 % q/q, +11,3 % r/r), podporené sadzbami ~3,5 %, rastom miezd ~5–6 % a slabou ponukou; varovné signály sú rastúca nezamestnanosť (5,9 %) a celoštátny pokles nájmov (−1,7 %). ` +
       `Trh je však podľa kompozitného ocenenia ~${VALUATION.composite.toFixed(0)} % nad fundamentálnou úrovňou, čo zvyšuje citlivosť na úrokový alebo príjmový šok. ` +
       `Základný scenár: pokračujúci, postupne sa spomaľujúci rast (12M: ${h12.find((s) => s.id === 'base')?.pct.toFixed(0)} %).`,
     reasons: [

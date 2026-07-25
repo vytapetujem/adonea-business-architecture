@@ -13,37 +13,42 @@ import { QUARTERS } from '../lib/quarters'
 const MORTGAGE_RATE: number[] = [ // avg. rate on new housing loans, % p.a. (NBS)
   2.05, 1.95, 1.85, 1.78,  1.75, 1.72, 1.70, 1.66,  1.60, 1.55, 1.50, 1.45,  1.45, 1.35, 1.25, 1.18,
   1.15, 1.10, 1.08, 1.05,  1.02, 0.98, 0.96, 0.98,  1.10, 1.65, 2.40, 3.00,  3.50, 3.85, 4.05, 4.20,
-  4.25, 4.20, 4.05, 3.90,  3.75, 3.65, 3.55, 3.50,
+  4.25, 4.20, 4.05, 3.90,  3.75, 3.65, 3.55, 3.50,  3.45,
 ]
 
 // prettier-ignore
 const ECB_DEPOSIT: number[] = [ // ECB deposit facility rate, end of quarter, %
   -0.40, -0.40, -0.40, -0.40,  -0.40, -0.40, -0.40, -0.40,  -0.40, -0.40, -0.40, -0.40,  -0.40, -0.40, -0.50, -0.50,
   -0.50, -0.50, -0.50, -0.50,  -0.50, -0.50, -0.50, -0.50,  -0.50, -0.50, 0.75, 2.00,  3.00, 3.50, 4.00, 4.00,
-  4.00, 3.75, 3.50, 3.00,  2.50, 2.00, 2.00, 2.00,
+  4.00, 3.75, 3.50, 3.00,  2.50, 2.00, 2.00, 2.00,  2.00,
 ]
 
 // prettier-ignore
 const HICP_YOY: number[] = [ // HICP inflation, y/y %, quarterly average (Eurostat/ŠÚSR)
   -0.7, -0.7, -0.6, 0.2,  1.1, 1.1, 1.5, 2.0,  2.2, 2.9, 2.7, 2.0,  2.4, 2.7, 3.0, 3.1,
   3.1, 2.0, 1.4, 1.6,  1.0, 2.0, 3.8, 5.1,  8.4, 11.7, 13.6, 14.9,  15.0, 11.9, 9.6, 7.0,
-  3.8, 2.6, 3.0, 3.2,  3.9, 4.2, 4.4, 4.3,
+  3.8, 2.6, 3.0, 3.2,  3.9, 4.2, 4.4, 4.3,  3.1,
 ]
 
 // prettier-ignore
 const GDP_YOY: number[] = [ // real GDP growth y/y %, approx. quarterly profile (ŠÚSR)
   2.0, 2.3, 2.4, 2.2,  2.8, 2.9, 2.9, 3.0,  3.7, 4.1, 4.2, 3.9,  3.0, 2.6, 2.2, 2.1,
   -3.0, -10.5, -2.0, -2.2,  0.5, 9.5, 4.5, 4.9,  2.8, 1.7, 1.4, 1.0,  1.5, 1.6, 1.5, 1.4,
-  2.4, 2.2, 1.9, 1.7,  1.0, 0.8, 0.9, 1.1,
+  2.4, 2.2, 1.9, 1.7,  1.0, 0.8, 0.9, 1.1,  1.2,
 ]
 
-/** Annual official values (ŠÚSR); quarterly points are linear interpolations with a Q4 seasonal wage bump. */
-const WAGE_ANNUAL = [912, 954, 1013, 1092, 1133, 1211, 1304, 1430, 1524, 1617] // avg. gross monthly wage €
-const UNEMP_ANNUAL = [9.7, 8.1, 6.5, 5.8, 6.7, 6.8, 6.1, 5.8, 5.3, 5.1] // unemployment rate %
-const COMPLETIONS_ANNUAL = [15700, 16900, 19100, 20300, 21200, 20500, 19400, 18200, 16800, 15900] // dwellings completed
-const PERMITS_ANNUAL = [19500, 21300, 22300, 24000, 26000, 25500, 21000, 17500, 15500, 14800] // building permits (dwellings)
-const CCI_ANNUAL = [101.5, 104, 108, 112, 115, 128, 145, 152, 155, 159] // construction cost index, 2015 = 100
-const NET_MIGRATION_ANNUAL = [3.9, 3.9, 4.0, 4.5, 5.1, 3.0, 7.8, 6.5, 5.5, 5.0] // net migration, thousand persons
+/**
+ * Annual official values (ŠÚSR); quarterly points are linear interpolations with
+ * a Q4 seasonal wage bump. Verified anchors (25. 7. 2026): wage 2025 = 1 620 €
+ * (+6,3 %; Q4 2025 = 1 739 €); unemployment 2026-Q1 = 5,9 % (+0,6 p. b. y/y).
+ * 2026 entries are current-year estimates used only for the 2026-Q1 interpolation.
+ */
+const WAGE_ANNUAL = [912, 954, 1013, 1092, 1133, 1211, 1304, 1430, 1524, 1620, 1700] // avg. gross monthly wage €
+const UNEMP_ANNUAL = [9.7, 8.1, 6.5, 5.8, 6.7, 6.8, 6.1, 5.8, 5.3, 5.4, 5.9] // unemployment rate %
+const COMPLETIONS_ANNUAL = [15700, 16900, 19100, 20300, 21200, 20500, 19400, 18200, 16800, 15900, 15600] // dwellings completed
+const PERMITS_ANNUAL = [19500, 21300, 22300, 24000, 26000, 25500, 21000, 17500, 15500, 14800, 14500] // building permits (dwellings)
+const CCI_ANNUAL = [101.5, 104, 108, 112, 115, 128, 145, 152, 155, 159, 162] // construction cost index, 2015 = 100
+const NET_MIGRATION_ANNUAL = [3.9, 3.9, 4.0, 4.5, 5.1, 3.0, 7.8, 6.5, 5.5, 5.0, 5.0] // net migration, thousand persons
 
 function annualToQuarterly(annual: number[], wageSeason = false): number[] {
   const out: number[] = []

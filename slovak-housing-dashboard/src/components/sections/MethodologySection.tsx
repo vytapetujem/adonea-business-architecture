@@ -7,7 +7,7 @@ const LIMITATIONS = [
   'Krajské štvrťročné série sú modelové odhady kalibrované na kotvy NBS (±5–10 %) — presné hodnoty vyžadujú načítanie XLSX NBS cez refresh pipeline (docs/DATA_ACQUISITION.md).',
   'Okresné (LAU1) dáta: NBS nepubl. otvorené okresné cenové rady; okresná granularita preto v aplikácii nie je — uvádzame to explicitne namiesto fabrikovania.',
   'Nájomné: SR nemá oficiálnu štatistiku trhových nájmov; hodnoty sú trhové odhady (±10–15 %) — všetky odvodené ukazovatele (výnos, cena/nájom) dedia túto neistotu.',
-  'Séria 2026: dáta za Q1–Q2 2026 neboli v čase zostavenia dostupné z build prostredia; história končí 2025-Q4 a prognóza beží od 2026-Q1.',
+  'Séria 2026: Q1 2026 doplnený z komentára NBS (3 005 €/m², overená kotva); Q2 2026 v čase aktualizácie (25. 7. 2026) ešte nebol publikovaný. Prognóza beží od 2026-Q2.',
   'Kvartalizácia ročných údajov (mzdy, nezamestnanosť, výstavba) vyhladzuje skutočný priebeh; korelácie s takými sériami sú optimistickejšie.',
   'Malá vzorka: 40 štvrťrokov a jedna korekcia — pravdepodobnosti (bublina, korekcia) nemožno frekvenčne kalibrovať, sú expertné.',
   'Zahraniční kupujúci a investičné fondy: bez oficiálnej štatistiky — faktor nekvalifikovaný.',

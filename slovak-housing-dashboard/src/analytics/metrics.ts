@@ -83,7 +83,7 @@ export function computeScopeMetrics(scope: GeoScope, type: PropertyType = 'all')
   const netWage = grossWage * NET_WAGE_RATIO
 
   const rent2025 = scope === 'SK' ? NATIONAL_RENT_2025 : REGION_AUX[scope as RegionId].rent2025
-  const rentIdx = RENT_INDEX_BY_YEAR[Math.min(2025, Math.max(2016, year))] / RENT_INDEX_BY_YEAR[2025]
+  const rentIdx = RENT_INDEX_BY_YEAR[Math.min(2026, Math.max(2016, year))] / RENT_INDEX_BY_YEAR[2025]
   const rent = rent2025 * rentIdx
 
   const A = AFFORDABILITY_ASSUMPTIONS

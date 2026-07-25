@@ -29,4 +29,7 @@ export const NATIONAL_RENT_2025 = 9.2
 export const RENT_INDEX_BY_YEAR: Record<number, number> = {
   2016: 1.0, 2017: 1.04, 2018: 1.09, 2019: 1.15, 2020: 1.14,
   2021: 1.18, 2022: 1.35, 2023: 1.52, 2024: 1.62, 2025: 1.72,
+  // 2026: nájmy mierne klesajú — Deloitte Rent Index Q1 2026: SR −1,7 % q/q
+  // (Košice −4,8 %, Bratislava −2,1 %; rástli Žilina +2,2 %, Nitra +1,8 %)
+  2026: 1.69,
 }

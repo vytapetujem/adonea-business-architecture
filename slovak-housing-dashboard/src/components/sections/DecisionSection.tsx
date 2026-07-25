@@ -86,7 +86,7 @@ export default function DecisionSection() {
 
       <Disclaimer>
         Nie je to finančné poradenstvo. Individuálne rozhodnutie závisí od príjmovej stability, horizontu, lokality a alternatív
-        (nájom, iné aktíva). Čísla platia k 2025-Q4 na národnej úrovni — regionálna situácia sa líši (pozri mapu a investičnú sekciu).
+        (nájom, iné aktíva). Čísla platia k 2026-Q1 na národnej úrovni — regionálna situácia sa líši (pozri mapu a investičnú sekciu).
       </Disclaimer>
     </Section>
   )

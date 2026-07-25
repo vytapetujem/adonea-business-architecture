@@ -19,9 +19,10 @@ export default function OverviewSection() {
       title={`${scopeName} · ${quarterLabel(m.latestQuarter)}`}
       intro={
         <>
-          Priemerné ponukové ceny bývania podľa metodiky NBS (€/m²). Za dekádu 2016–2025 vzrástli národné ceny z{' '}
-          <b className="text-ink-100">1 238 €/m²</b> na <b className="text-ink-100">2 906 €/m²</b> (+135 %, ~8,9 % ročne) — s pandemickým
-          boomom (+25 % r/r v 2022), korekciou 2022–2024 (−4,6 % nominálne) a novým boomom v 2025 (+12 %).
+          Priemerné ponukové ceny bývania podľa metodiky NBS (€/m²). Od roku 2016 vzrástli národné ceny z{' '}
+          <b className="text-ink-100">1 238 €/m²</b> na <b className="text-ink-100">3 005 €/m²</b> (2026-Q1; +143 %, ~9,1 % ročne) —
+          s pandemickým boomom (+25 % r/r v 2022), korekciou 2022–2024 (−4,6 % nominálne) a novým boomom od 2025
+          (+12 %; v Q1 2026 rast pokračuje tempom +11,3 % r/r).
         </>
       }
       right={<ProvenanceBadge p={scope === 'SK' ? 'anchored' : 'estimated'} />}

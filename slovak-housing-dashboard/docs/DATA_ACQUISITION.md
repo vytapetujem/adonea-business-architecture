@@ -23,6 +23,11 @@ Postup zostavenia:
    | Kotva | Hodnota | Zdroj |
    | --- | --- | --- |
    | Priemerná cena SR 2016-Q1 | 1 238 €/m² (+0,5 % q/q, +1,0 % r/r) | NBS komentár Q1 2016 |
+   | Priemerná cena SR 2026-Q1 | 3 005 €/m² (+3,4 % q/q, +11,3 % r/r); byty 3 378, domy 2 118 | NBS komentár Q1 2026 |
+   | Kraje 2026-Q1 q/q | PO +11 %, BB +6,9 %, TN +5,1 %, ZA +4,7 %; BA +19,5 % r/r | NBS komentár Q1 2026 |
+   | Nitriansky kraj 2025-Q3 | 1 522 €/m² (najnižší v SR) | NBS regionálne dáta |
+   | Nájomné 2026-Q1 | SR −1,7 %; BA 948 €, KE 736 € (−4,8 %), NR 664 € | Deloitte Rent Index |
+   | Mzda 2025 / nezamestnanosť 2026-Q1 | 1 620 € (+6,3 %) / 5,9 % | ŠÚSR |
    | Priemerná cena SR 2025-Q4 | 2 906 €/m² (+92 €/m² q/q) | NBS komentár Q4 2025 |
    | Byty SR 2025-Q4 / 2025-Q1 | 3 262 €/m² / 3 041 €/m² (vtedajšie maximum) | NBS |
    | Domy SR 2025-Q4 | 2 139 €/m² | NBS |

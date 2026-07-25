@@ -1,7 +1,7 @@
 import type { QuarterKey } from './types'
 
 export const FIRST_QUARTER: QuarterKey = '2016-Q1'
-export const LAST_MEASURED_QUARTER: QuarterKey = '2025-Q4'
+export const LAST_MEASURED_QUARTER: QuarterKey = '2026-Q1'
 
 export function parseQuarter(q: QuarterKey): { year: number; q: number } {
   const [y, qq] = q.split('-Q')

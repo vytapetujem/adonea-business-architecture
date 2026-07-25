@@ -20,9 +20,10 @@
 
 4. **Nájomné bez oficiálnej štatistiky.** Výnosy a PTR dedia neistotu ±10–15 %.
 
-5. **História končí 2025-Q4.** Dáta Q1–Q2 2026 neboli dostupné; „súčasnosť“
-   modelu = koniec 2025. Prvé prognózované kvartály sú už čiastočne minulosťou —
-   po refreshi sa model automaticky posunie.
+5. **História končí 2026-Q1** (doplnené 25. 7. 2026 z komentára NBS — 3 005 €/m²
+   overená kotva; medziľahlé body 2025 rekalibrované, tolerancia r/r rastov
+   ±0,5 p. b. voči publikovaným hodnotám). Q2 2026 v čase aktualizácie ešte
+   nebol publikovaný; po refreshi sa model automaticky posunie.
 
 6. **Malá vzorka pre pravdepodobnosti.** 40 kvartálov, jedna korekcia, nula
    prasknutých bublín v skúmanom okne → P(bublina), P(korekcia) sú expertné
