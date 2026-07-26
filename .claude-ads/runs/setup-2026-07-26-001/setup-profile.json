@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "setup-profile",
+  "run_id": "setup-2026-07-26-001",
+  "created_at": "2026-07-26T21:10:00Z",
+  "business": {
+    "name": "Adonea",
+    "business_model": "Local home-services company in Slovakia: installation of local heat-recovery ventilation units (rekuperacia), air-conditioning installation, core drilling and concrete cutting, sun-protection and safety window films; plus separate retail and wholesale product lines. Related sister brand Vytapetujem.sk (wallpapering/interior).",
+    "geographies": [
+      "SK"
+    ],
+    "regulated_categories": []
+  },
+  "objective": {
+    "primary": "Lead generation for installation services (provisional - operator confirmation required)",
+    "conversion_definition": "Qualified lead handed to sales per AOM process 03.02 Sprava leadov (provisional - value and attribution window not yet defined by operator)",
+    "success_metrics": [
+      "cost_per_lead (target not set)",
+      "lead_volume_per_month (target not set)",
+      "lead_to_confirmed_order_rate (per AOM 03.03 Predaj; target not set)"
+    ]
+  },
+  "platforms": [
+    "meta"
+  ],
+  "account_refs": [
+    {
+      "platform": "meta",
+      "account_id": "1829773497621285"
+    },
+    {
+      "platform": "meta",
+      "account_id": "1204864157502707"
+    },
+    {
+      "platform": "meta",
+      "account_id": "313785937781885"
+    }
+  ],
+  "data_sources": [
+    {
+      "id": "meta-mcp-live-read",
+      "kind": "api",
+      "platform": "meta",
+      "status": "available"
+    },
+    {
+      "id": "google-ads-access",
+      "kind": "api",
+      "platform": "google",
+      "status": "missing"
+    },
+    {
+      "id": "analytics-or-crm-export",
+      "kind": "export",
+      "platform": "cross-platform",
+      "status": "missing"
+    }
+  ],
+  "privacy_class": "internal",
+  "mutation_authority": "none",
+  "approver_ids": [
+    "operator-adonea-owner"
+  ],
+  "assumptions": [
+    "Business model, service list, and process taxonomy observed from the AOM repository (approved 2026-07-19); treated as facts.",
+    "Meta ad accounts observed via read-only Meta Ads MCP listing on 2026-07-26: Adonea-Interna kampan (1829773497621285), Vytapetujem.sk (1204864157502707), and one unnamed active account (313785937781885); which accounts are in scope is an operator decision, not yet made.",
+    "Primary objective assumed to be service lead generation based on AOM marketing purpose (ORG-02, 03.01); provisional until the operator confirms.",
+    "No monthly budget, target CPA/CPL, ROAS, or LTV:CAC declared; all financial thresholds are unset and no benchmark-derived targets were invented.",
+    "Active platforms beyond Meta are unknown; Google Ads and analytics/CRM access not connected.",
+    "Currency EUR and timezone Europe/Bratislava assumed from account currency and company geography.",
+    "Mutation authority is none: no budget or policy ceilings declared, so no live account write is authorized; drafts only after explicit operator approval.",
+    "Credential storage: Meta access exists only as a session-scoped MCP connection; no credential values are stored in this profile or repository."
+  ],
+  "data_lifecycle": {
+    "schema_version": "1.0.0",
+    "lifecycle_id": "lc-setup-2026-07-26-001",
+    "classification": "internal",
+    "retention": {
+      "minimum_seconds": 31536000,
+      "mode": "operator-defined",
+      "delete_after": "2027-07-26T00:00:00Z",
+      "purpose": "Paid-media setup state for Adonea: business profile, account references, and guardrails used by future Claude Ads runs.",
+      "exception_reason": null
+    },
+    "encryption": {
+      "at_rest": "verified",
+      "in_transit": "verified",
+      "evidence_refs": [
+        "github-private-repository-encryption-at-rest",
+        "git-over-https-tls-in-transit"
+      ]
+    },
+    "access": {
+      "owner": "operator-adonea-owner",
+      "authorized_roles": [
+        "operator"
+      ],
+      "access_log_locator": null
+    },
+    "deletion": {
+      "status": "scheduled",
+      "method": "Remove .claude-ads state files from the repository and purge git history on operator request.",
+      "verification_required": true,
+      "verification_artifact_locator": null
+    },
+    "incident": {
+      "owner": "operator-adonea-owner",
+      "reporting_channel": "private-message-to-operator",
+      "status": "not-triggered",
+      "record_locator": null
+    }
+  }
+}

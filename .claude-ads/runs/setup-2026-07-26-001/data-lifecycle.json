@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "lifecycle_id": "lc-setup-2026-07-26-001",
+  "classification": "internal",
+  "retention": {
+    "minimum_seconds": 31536000,
+    "mode": "operator-defined",
+    "delete_after": "2027-07-26T00:00:00Z",
+    "purpose": "Paid-media setup state for Adonea: business profile, account references, and guardrails used by future Claude Ads runs.",
+    "exception_reason": null
+  },
+  "encryption": {
+    "at_rest": "verified",
+    "in_transit": "verified",
+    "evidence_refs": [
+      "github-private-repository-encryption-at-rest",
+      "git-over-https-tls-in-transit"
+    ]
+  },
+  "access": {
+    "owner": "operator-adonea-owner",
+    "authorized_roles": ["operator"],
+    "access_log_locator": null
+  },
+  "deletion": {
+    "status": "scheduled",
+    "method": "Remove .claude-ads state files from the repository and purge git history on operator request.",
+    "verification_required": true,
+    "verification_artifact_locator": null
+  },
+  "incident": {
+    "owner": "operator-adonea-owner",
+    "reporting_channel": "private-message-to-operator",
+    "status": "not-triggered",
+    "record_locator": null
+  }
+}
