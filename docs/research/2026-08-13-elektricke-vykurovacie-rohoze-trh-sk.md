@@ -321,7 +321,43 @@ Prémiové značky **viažu predĺženú záruku na autorizovanú montáž** (DE
 
 ---
 
-## 10. Limity prieskumu
+## 10. Predajné argumenty — koľko zákazník ušetrí
+
+1. **Žiadna kotolňa = úspora 3 000–8 000 € na vstupe** oproti teplovodnej podlahovke (rozvody 40–80 €/m² + zdroj tepla za tisíce + 6–8 cm poteru).
+2. **Nulová údržba = 150–300 €/rok**: žiadny servis kotla, revízia plynu, komín, ani fixné platby za plynovú prípojku; rohož nemá pohyblivé diely, záruka 20 r. až doživotná.
+3. **DD5 pre celú domácnosť**: nízka tarifa 20 h/deň (~0,08–0,09 €/kWh) platí aj pre práčku, bojler a varenie.
+4. **Sálavé teplo dovolí kúriť menej**: rovnaký komfort pri vzduchu o 1–2 °C chladnejšom (~6 %/°C úspora); programovateľný termostat +20–30 % úspory.
+5. **Kúpeľňa: 4–8 €/mesiac** (30–60 €/rok pri 8-mesačnej prevádzke).
+6. **TČ sa pri malom zateplenom dome nevráti**: +~10 000 € investície vs. úspora prevádzky ~150–250 €/rok → návratnosť 30+ rokov, viac než životnosť čerpadla.
+
+**Porovnanie pre zateplený dom 70 m² (orientačne):**
+
+| Systém | Investícia | Prevádzka/rok | Údržba/rok |
+|---|---|---|---|
+| Elektrické rohože + termostaty | 4 000–5 300 € | 350–550 € | 0 € |
+| TČ + teplovodná podlahovka | 14 000–20 000 € | 200–350 € | 100–150 € |
+| Plynový kotol + radiátory | 6 000–10 000 € | 450–700 € + fixné platby | 100–150 € |
+
+## 11. Modelové príklady: dom 70 m² a dom 120 m²
+
+Predpoklady: rohože ako hlavné vykurovanie (vhodné pre zateplené domy) vrátane kúpeľne; vykuruje sa ~70 % podlahovej plochy; obytné miestnosti 100–150 W/m², kúpeľňa 160 W/m². Ceny pre zákazníka s DPH, VOC bez DPH.
+
+| Položka | Dom 70 m², kúpeľňa 5 m² | Dom 120 m², kúpeľňa 8 m² |
+|---|---|---|
+| Vykurovaná plocha (~70 %) | ~50 m² | ~85 m² |
+| Rohože — nákup VOC (22–30 €/m² bez DPH) | 1 100–1 500 € | 1 900–2 550 € |
+| Rohože — predaj zákazníkovi (42–50 €/m² s DPH) | 2 100–2 500 € | 3 550–4 250 € |
+| Termostaty (1/miestnosť, à 80–150 €) | 5 ks · 400–750 € | 7 ks · 560–1 050 € |
+| Montáž — pokládka a zaliatie (15–25 €/m²) | 750–1 250 € | 1 275–2 125 € |
+| Elektro — okruhy, chrániče, zapojenie, revízia | 500–800 € | 700–1 000 € |
+| **Cena pre zákazníka spolu** | **3 750–5 300 €** | **6 100–8 400 €** |
+| Z toho samotná kúpeľňa (samostatne) | ~550 € | ~750 € |
+| Odhad prevádzky (zateplený dom, DD5) | 350–550 €/rok | 600–900 €/rok |
+| **Hrubá marža na zákazke (odhad 30–45 %)** | **1 200–2 000 €** | **2 000–3 200 €** |
+
+Na porovnanie: samostatná rekonštrukčná kúpeľňa 4 m² (najčastejšia zákazka trhu) = 320–670 €; jedna celodomová inštalácia nahradí objemom ~10 kúpeľní a celá elektro-časť ostáva in-house.
+
+## 12. Limity prieskumu
 
 - VOC ceny sú odhady z verejných indícií — presné čísla vyžadujú registráciu IČO u Fenix Slovensko, HAKL, Hagard a vyžiadanie rabatových podmienok (odporúčaný ďalší krok).
 - Ceny montáže sú trhové rozpätia z cenníkov a cenových sprievodcov, nie záväzné ponuky; regionálna variabilita ±30 %.
