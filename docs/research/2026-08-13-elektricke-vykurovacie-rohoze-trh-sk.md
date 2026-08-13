@@ -340,20 +340,31 @@ Prémiové značky **viažu predĺženú záruku na autorizovanú montáž** (DE
 
 ## 11. Modelové príklady: dom 70 m² a dom 120 m²
 
-Predpoklady: rohože ako hlavné vykurovanie (vhodné pre zateplené domy) vrátane kúpeľne; vykuruje sa ~70 % podlahovej plochy; obytné miestnosti 100–150 W/m², kúpeľňa 160 W/m². Ceny pre zákazníka s DPH, VOC bez DPH.
+Predpoklady: rohože ako hlavné vykurovanie (vhodné pre zateplené domy). Dom a kúpeľňa sú v rozpočte **oddelené položky s vlastnou cenou za m²** — kúpeľňa má silnejšiu rohož (160 W/m²) a malé rohože sú na m² drahšie. Vykuruje sa ~70 % podlahovej plochy. Ceny pre zákazníka s DPH, VOC bez DPH.
 
 | Položka | Dom 70 m², kúpeľňa 5 m² | Dom 120 m², kúpeľňa 8 m² |
 |---|---|---|
-| Vykurovaná plocha (~70 %) | ~50 m² | ~85 m² |
-| Rohože — nákup VOC (22–30 €/m² bez DPH) | 1 100–1 500 € | 1 900–2 550 € |
-| Rohože — predaj zákazníkovi (42–50 €/m² s DPH) | 2 100–2 500 € | 3 550–4 250 € |
-| Termostaty (1/miestnosť, à 80–150 €) | 5 ks · 400–750 € | 7 ks · 560–1 050 € |
-| Montáž — pokládka a zaliatie (15–25 €/m²) | 750–1 250 € | 1 275–2 125 € |
-| Elektro — okruhy, chrániče, zapojenie, revízia | 500–800 € | 700–1 000 € |
-| **Cena pre zákazníka spolu** | **3 750–5 300 €** | **6 100–8 400 €** |
-| Z toho samotná kúpeľňa (samostatne) | ~550 € | ~750 € |
+| **Dom — obytné plochy (100–150 W/m²)** | | |
+| Vykurovaná plocha (~70 %) | ~45 m² | ~78 m² |
+| Rohože — nákup VOC (22–30 €/m² bez DPH) | 990–1 350 € | 1 720–2 340 € |
+| Rohože — predaj zákazníkovi (42–50 €/m² s DPH) | 1 890–2 250 € | 3 280–3 900 € |
+| Termostaty (1/miestnosť, à 80–150 €) | 4 ks · 320–600 € | 6 ks · 480–900 € |
+| Montáž — pokládka a zaliatie (15–25 €/m²) | 675–1 125 € | 1 170–1 950 € |
+| *Medzisúčet dom* | *2 885–3 975 €* | *4 930–6 750 €* |
+| **Kúpeľňa (160 W/m² — iná cena za m²)** | | |
+| Vykurovaná plocha (bez vane/sprchy/skriniek) | ~3,5 m² | ~5,5 m² |
+| Rohož 160 W — nákup VOC (malé rohože ~26–33 €/m² bez DPH) | 90–115 € | 145–180 € |
+| Rohož 160 W — predaj zákazníkovi (~50–60 €/m² s DPH) | 175–210 € | 265–320 € |
+| Termostat s podlahovou sondou (WiFi) | 80–200 € | 80–200 € |
+| Montáž (malá plocha, minimálna sadzba) | 75–150 € | 100–190 € |
+| *Medzisúčet kúpeľňa* | *330–560 €* | *445–710 €* |
+| **Spoločné** | | |
+| Elektro — okruhy, chrániče, zapojenia, revízia | 500–800 € | 700–1 000 € |
+| **Cena pre zákazníka spolu** | **3 700–5 300 €** | **6 100–8 500 €** |
 | Odhad prevádzky (zateplený dom, DD5) | 350–550 €/rok | 600–900 €/rok |
 | **Hrubá marža na zákazke (odhad 30–45 %)** | **1 200–2 000 €** | **2 000–3 200 €** |
+
+Kúpeľňa je v rámci celodomovej zákazky lacná (330–560 €), lebo výjazd, elektro a réžiu nesie celý dom; samostatná kúpeľňa na trhu stojí 320–670 €. Oplatí sa ju predávať ako súčasť väčšieho celku.
 
 Na porovnanie: samostatná rekonštrukčná kúpeľňa 4 m² (najčastejšia zákazka trhu) = 320–670 €; jedna celodomová inštalácia nahradí objemom ~10 kúpeľní a celá elektro-časť ostáva in-house.
 
